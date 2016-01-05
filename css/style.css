@@ -1,0 +1,98 @@
+body{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  margin: 0 auto;
+  min-width: 800px;
+  max-width: 1200px;
+
+}
+header{
+  position: absolute;
+  right: 0;
+  top:0;
+  height: 10%;
+  background-image: linear-gradient(to bottom right, #3a5795, #4c67a1);
+  width: 100%;
+}
+h1{
+  width: 250px;
+  position: absolute;
+  left:50px;
+  top: 5px;
+  color: #FFFFFF;
+  font-family:sans-serif;
+}
+#connect{
+  position: absolute;
+  right: 50px;
+}
+#connect p{
+  display: inline-block;
+  width: 165px;
+  position: absolute;
+  top: 0;
+}
+#connect p:first-child{
+  right: 344px;
+}
+#connect p:nth-child(2){
+  right: 173px;
+}
+#connect p:nth-child(3){
+  right: 20px;
+  top:14px;
+}
+#connect button{
+  height: 25px;
+
+  background-color: #617AAC;
+  text-align: center;
+  margin: 5px 15px;
+  font-family: sans-serif;
+  font-size: 0.9;
+  font-weight: 800;
+  color: #FFFFFF;
+  border: 0.08em solid black;
+}
+#connect label{
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+#connect input[id*="connect-auto"]{
+  width: 15px;
+  height: 15px;
+  margin-left: 0px;
+  margin-top: 2px;
+  margin-right: 1px;
+  margin-bottom: 0px;
+}
+#connect input{
+  margin-top: 2px;
+  width: 150px;
+  height: 20px;
+  border: 1px solid #F8F9FB;
+}
+#connect a{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+section{
+  position: absolute;
+  width: 100%;
+  left:0;
+  top:10%;
+  background-image: linear-gradient(to bottom right, #d3d8e8, #FEFEFE);
+}
+.sec-g{
+  float: left;
+}
+.sec-d{
+  float: right;
+}
